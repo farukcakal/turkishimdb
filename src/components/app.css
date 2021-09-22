@@ -1,0 +1,351 @@
+.Header {
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  background-color: #022541;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.logo {
+  height: 20px;
+  width: 154px;
+}
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 100%;
+  padding-left: 40px;
+}
+.nav-wrapper {
+  height: 40px;
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: visible;
+}
+.urls {
+  margin-left: 10px;
+}
+.urls a {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 8px 8px;
+}
+.loginbtn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.loginbtn a {
+  color: white;
+  font-size: 20px;
+}
+
+.slider {
+  display: flex;
+  height: 360px;
+  width: 100%;
+  background-color: #0e6dbb;
+  margin-top: 45px;
+  background-image: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+.slider-content {
+  margin-top: 50px;
+}
+.content-wrapper {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.content-wrapper h2 {
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.content-wrapper h3 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.search-bar {
+  width: 100%;
+  height: 46px;
+}
+.search-bar input {
+  width: 100%;
+  height: 46px;
+}
+.Populars {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  height: auto;
+}
+.main h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  width: 100%;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 15px;
+}
+.Container {
+  align-content: center;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.movie {
+  display: flex;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 10px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 550px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+.movie-card-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  color: black;
+}
+.Pages {
+  margin-top: 60px;
+}
+.Movies {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  margin-left: 90px;
+  height: auto;
+}
+.pagination {
+  margin-top: 20px;
+  margin-left: 533px;
+  align-content: center;
+  align-items: center;
+}
+.Movie-Poster {
+  border-radius: 8px;
+}
+.Movie-Header {
+  height: 570px;
+}
+.Movie-Header-Container {
+  background-image: linear-gradient(
+    to right,
+    rgba(5.88%, 5.1%, 5.49%, 1) 200px,
+    rgba(5.88%, 5.1%, 5.49%, 0.84) 100%
+  );
+  padding: 30px;
+  height: 100%;
+}
+.Movie-Header-Detail {
+  display: flex;
+}
+.Movie-Header-Detail h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Movie-Header-Detail p {
+  display: flex;
+  color: white;
+}
+.Movie-More-Detail {
+  margin-top: 65px;
+  margin-left: 40px;
+  width: 980px;
+  font-size: 17px;
+}
+.Movie-More-Detail h2 {
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Movie-Credits {
+  margin-top: 20px;
+  display: flex;
+}
+.main {
+  align-items: center;
+}
+.main h2 {
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 35px;
+}
+.sub {
+  margin-left: 35px;
+  margin-top: 20px;
+  align-items: center;
+  width: 100%;
+}
+.sub h3 {
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Movie-Video {
+  margin-left: 27px;
+  margin-right: 1px;
+  margin-top: 10px;
+}
+.Horizontal-Scroll {
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 5px;
+}
+.Credits-Scroll {
+  height: 506px;
+  width: 1400px;
+}
+.Populars-Scroll {
+  height: 503px;
+  width: 100%;
+}
+.Seasons {
+  vertical-align: bottom;
+  width: 100%;
+}
+.Season-Poster {
+  display: flex;
+  width: 100%;
+}
+.Season-Detail {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-left: 20px;
+  width: 10%;
+}
+.Season-Detail h3 {
+  font-weight: bolder;
+}
+.Season-Overview {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  width: 100%;
+}
+.Person {
+  display: flex;
+}
+.Person-Left {
+  width: 20%;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+.Person-Left h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Person-Left h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Person-Left p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.Person-Right {
+  margin-top: 100px;
+  width: 80%;
+}
+.Person-Right-Header h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Person-RighHeader h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Person-Right-Header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+}
+.Person-Right-Header p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.Job-Scroll {
+  height: 510px;
+  margin-top: 25px;
+}
+.Search {
+  width: 100%;
+}
+.Login-Page {
+  margin-top: 57px;
+  width: 100%;
+}
+.Login-Form {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 350px;
+  margin-top: 120px;
+  margin-left: 550px;
+  margin-right: 550px;
+}
+.Dashboard {
+  margin-top: 100px;
+}
+.Profile-Info {
+  margin: 5px;
+}
+.Login-Button {
+  margin: 5px;
+}
+.Comments {
+  margin-top: 50px;
+  width: 100%;
+}
+.Comments-Card {
+  width: 100%;
+}
+.Comment {
+  width: 100%;
+}
